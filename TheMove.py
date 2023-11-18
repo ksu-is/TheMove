@@ -3,7 +3,7 @@
 import requests 
 
 # Google Maps API key allows communication with server
-api_key = 'AIzaSyBVNOStj05653SnpTu4emjBJDi3zDlGA3Q'
+api_key = ''
 
 # url base
 url = "https://maps.googleapis.com/maps/api/place/textsearch/json?"

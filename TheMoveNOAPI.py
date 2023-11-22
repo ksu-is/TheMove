@@ -32,8 +32,8 @@ save_list = []
 
 results_list = json_url['results'] 
 
-# keep looping up to length of y
-#max result is 20, length is based on number of results
+# keep looping up to length of the results
+#max result is 20, length is based on number of results in maps
 for single_result in range(len(results_list)): 
     # Print the list one result at a time
 	print(results_list[single_result]['name'])
